@@ -78,7 +78,7 @@ class MainKtTest {
 
         val result = calcCommission(type, amountOfPrevTransfers, amount)
 
-        assertEquals(0, result)
+        assertEquals(-5, result)
     }
 
     @Test
